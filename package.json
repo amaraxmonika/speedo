@@ -1,0 +1,16 @@
+{
+  "name": "spedometer",
+  "version": "1.0.0",
+  "description": "Spedometer for Manu",
+  "main": "main.js",
+  "scripts": {
+    "start": "./node_modules/.bin/electron .",
+    "build": "node ./tools/packager.js"
+  },
+  "author": "Chasen Johnson",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^1.4.14",
+    "electron-packager": "^5.2.1"
+  }
+}
